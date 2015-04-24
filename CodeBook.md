@@ -13,12 +13,12 @@ tBodyGyroMag, tBodyGyroJerkMag.
 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag.
 
-### Column names:
+### Column names [units]:
 
-**ID_sub**  
+**ID_sub []**  
     subject who performed the activity. Range from 1 to 30
     
-**Activity**  
+**Activity []**  
 activity which was taken:
 
 - 	Laying
@@ -28,171 +28,171 @@ activity which was taken:
 - 	Walking\_downstairs
 - 	Walking\_upstairs
 
-**tBodyAcc-std()-X  
-tBodyAcc-std()-Y  
-tBodyAcc-std()-Z**  
+**tBodyAcc-std()-X [g]  
+tBodyAcc-std()-Y [g]  
+tBodyAcc-std()-Z [g]**  
     standards deviation of body acceleration in 3 directions: X, Y, and Z (in time domain)
 
-**tGravityAcc-std()-X            
-tGravityAcc-std()-Y  
-tGravityAcc-std()-Z**  
+**tGravityAcc-std()-X [g]            
+tGravityAcc-std()-Y [g]  
+tGravityAcc-std()-Z [g]**  
     standards deviation of gravity acceleration in 3 directions: X, Y, and Z (in time domain)
             
-**tBodyAccJerk-std()-X  
-tBodyAccJerk-std()-Y             
-tBodyAccJerk-std()-Z**  
+**tBodyAccJerk-std()-X [g]  
+tBodyAccJerk-std()-Y [g]             
+tBodyAccJerk-std()-Z [g]**  
     standards deviation of the body linear acceleration in 3 directions: X, Y, and Z (in time domain)
 
-**tBodyGyro-std()-X              
-tBodyGyro-std()-Y  
-tBodyGyro-std()-Z**  
+**tBodyGyro-std()-X [rad/s]              
+tBodyGyro-std()-Y [rad/s]  
+tBodyGyro-std()-Z [rad/s]**  
     standards deviation of the body angular velocity in 3 directions: X, Y, and Z (in time domain)
               
-**tBodyGyroJerk-std()-X  
-tBodyGyroJerk-std()-Y            
-tBodyGyroJerk-std()-Z**  
+**tBodyGyroJerk-std()-X [rad/s]  
+tBodyGyroJerk-std()-Y [rad/s]            
+tBodyGyroJerk-std()-Z [rad/s]**  
     standards deviation of the body angular velocity to obtain Jerk signals in 3 directions: X, Y, and Z (in time domain)
 
-**tBodyAccMag-std()**  
+**tBodyAccMag-std() [g]**  
     standards deviation of the magnitude of body acceleration (in time domain)
               
-**tGravityAccMag-std()**  
+**tGravityAccMag-std() [g]**  
     standards deviation of the magnitude of gravity acceleration (in time domain)
 
-**tBodyAccJerkMag-std()**  
+**tBodyAccJerkMag-std() [g]**  
     standards deviation of the magnitude of the body linear acceleration (in time domain)
     
-**tBodyGyroMag-std()**  
+**tBodyGyroMag-std() [rad/s]**  
     standards deviation of the magnitude of the body angular velocity (in time domain)
 
-**tBodyGyroJerkMag-std()**  
+**tBodyGyroJerkMag-std() [rad/s]**  
     standards deviation of the magnitude of the body angular velocity to obtain Jerk signals (in time domain)
          
-**fBodyAcc-std()-X  
-fBodyAcc-std()-Y                 
-fBodyAcc-std()-Z**  
+**fBodyAcc-std()-X [g]  
+fBodyAcc-std()-Y [g]                 
+fBodyAcc-std()-Z [g]**  
     standards deviation of body acceleration in 3 directions: X, Y, and Z (in frequency domain)
 
-**fBodyAccJerk-std()-X           
-fBodyAccJerk-std()-Y  
-fBodyAccJerk-std()-Z**  
+**fBodyAccJerk-std()-X [g]           
+fBodyAccJerk-std()-Y [g]  
+fBodyAccJerk-std()-Z [g]**  
     standards deviation of the body linear acceleration in 3 directions: X, Y, and Z (in frequency domain)
            
-**fBodyGyro-std()-X  
-fBodyGyro-std()-Y                
-fBodyGyro-std()-Z**  
+**fBodyGyro-std()-X [rad/s]  
+fBodyGyro-std()-Y [rad/s]                
+fBodyGyro-std()-Z [rad/s]**  
     standards deviation of the body angular velocity in 3 directions: X, Y, and Z (in frequency domain)
 
-**fBodyAccMag-std()**  
+**fBodyAccMag-std() [g]**  
     standards deviation of the magnitude of body acceleration (in frequency domain)
               
-**fBodyBodyAccJerkMag-std()**  
+**fBodyBodyAccJerkMag-std() [g]**  
     standards deviation of the magnitude of the body linear acceleration (in frequency domain)
 
-**fBodyBodyGyroMag-std()**  
+**fBodyBodyGyroMag-std() [rad/s]**  
     standards deviation of the magnitude of the body angular velocity (in frequency domain)
          
-**fBodyBodyGyroJerkMag-std()**  
+**fBodyBodyGyroJerkMag-std() [rad/s]**  
     standards deviation of the magnitude of the body angular velocity to obtain Jerk signals (in frequency domain)
 
-**tBodyAcc-mean()-X              
-tBodyAcc-mean()-Y  
-tBodyAcc-mean()-Z**  
+**tBodyAcc-mean()-X [g]              
+tBodyAcc-mean()-Y [g]  
+tBodyAcc-mean()-Z [g]**  
     mean value of body acceleration in 3 directions: X, Y, and Z (in time domain)
               
-**tGravityAcc-mean()-X  
-tGravityAcc-mean()-Y             
-tGravityAcc-mean()-Z**  
+**tGravityAcc-mean()-X [g]  
+tGravityAcc-mean()-Y [g]             
+tGravityAcc-mean()-Z [g]**  
     mean value of gravity acceleration in 3 directions: X, Y, and Z (in time domain)
 
-**tBodyAccJerk-mean()-X          
-tBodyAccJerk-mean()-Y  
-tBodyAccJerk-mean()-Z**  
+**tBodyAccJerk-mean()-X [g]          
+tBodyAccJerk-mean()-Y [g]  
+tBodyAccJerk-mean()-Z [g]**  
     mean value of the body linear acceleration in 3 directions: X, Y, and Z (in time domain)
           
-**tBodyGyro-mean()-X  
-tBodyGyro-mean()-Y               
-tBodyGyro-mean()-Z**  
+**tBodyGyro-mean()-X [rad/s]  
+tBodyGyro-mean()-Y [rad/s]               
+tBodyGyro-mean()-Z [rad/s]**  
     mean value of the body angular velocity in 3 directions: X, Y, and Z (in time domain)
 
-t**BodyGyroJerk-mean()-X         
-tBodyGyroJerk-mean()-Y  
-tBodyGyroJerk-mean()-Z**   
+**tBodyGyroJerk-mean()-X [rad/s]         
+tBodyGyroJerk-mean()-Y [rad/s]  
+tBodyGyroJerk-mean()-Z [rad/s]**   
     mean value of the body angular velocity to obtain Jerk signals in 3 directions: X, Y, and Z (in time domain)
         
-**tBodyAccMag-mean()**  
+**tBodyAccMag-mean() [g]**  
     mean value of the magnitude of body acceleration (in time domain)
 
-**tGravityAccMag-mean()**  
+**tGravityAccMag-mean() [g]**  
     mean value of the magnitude of gravity acceleration (in time domain)
           
-**tBodyAccJerkMag-mean()**  
+**tBodyAccJerkMag-mean() [g]**  
     mean value of the magnitude of the body linear acceleration (in time domain)
 
-**tBodyGyroMag-mean()**  
+**tBodyGyroMag-mean() [rad/s]**  
     mean value of the magnitude of the body angular velocity (in time domain)
             
-**tBodyGyroJerkMag-mean()**  
+**tBodyGyroJerkMag-mean() [rad/s]**  
     mean value of the magnitude of the body angular velocity to obtain Jerk signals (in time domain)
 
-**fBodyAcc-mean()-X              
-fBodyAcc-mean()-Y  
-fBodyAcc-mean()-Z**  
+**fBodyAcc-mean()-X [g]              
+fBodyAcc-mean()-Y [g]  
+fBodyAcc-mean()-Z [g]**  
     mean value of body acceleration in 3 directions: X, Y, and Z (in frequency domain)
             
-**fBodyAcc-meanFreq()-X  
-fBodyAcc-meanFreq()-Y            
-fBodyAcc-meanFreq()-Z**  
+**fBodyAcc-meanFreq()-X [Hz]  
+fBodyAcc-meanFreq()-Y [Hz]            
+fBodyAcc-meanFreq()-Z [Hz]**  
     weighted average of the frequency components to obtain a mean frequency of 
     body acceleration in 3 directions: X, Y, and Z (in frequency domain)
 
-**fBodyAccJerk-mean()-X          
-fBodyAccJerk-mean()-Y  
-fBodyAccJerk-mean()-Z**  
+**fBodyAccJerk-mean()-X [g]          
+fBodyAccJerk-mean()-Y [g]  
+fBodyAccJerk-mean()-Z [g]**  
     mean value of the body linear acceleration in 3 directions: X, Y, and Z (in frequency domain)
           
-**fBodyAccJerk-meanFreq()-X  
-fBodyAccJerk-meanFreq()-Y        
-fBodyAccJerk-meanFreq()-Z**  
+**fBodyAccJerk-meanFreq()-X [Hz]  
+fBodyAccJerk-meanFreq()-Y [Hz]        
+fBodyAccJerk-meanFreq()-Z [Hz]**  
     weighted average of the frequency components to obtain a mean frequency
     of the body linear acceleration in 3 directions: X, Y, and Z (in frequency domain)
 
-**fBodyGyro-mean()-X             
-fBodyGyro-mean()-Y  
-fBodyGyro-mean()-Z**   
+**fBodyGyro-mean()-X [rad/s]             
+fBodyGyro-mean()-Y [rad/s]  
+fBodyGyro-mean()-Z [rad/s]**   
     mean value of the body angular velocity in 3 directions: X, Y, and Z (in frequency domain)
             
-**fBodyGyro-meanFreq()-X  
-fBodyGyro-meanFreq()-Y           
-fBodyGyro-meanFreq()-Z**  
+**fBodyGyro-meanFreq()-X [Hz]  
+fBodyGyro-meanFreq()-Y [Hz]           
+fBodyGyro-meanFreq()-Z [Hz]**  
     weighted average of the frequency components to obtain a mean frequency
     of the body angular velocity in 3 directions: X, Y, and Z (in frequency domain)
 
-**fBodyAccMag-mean()**  
+**fBodyAccMag-mean() [g]**  
     mean value of the magnitude of body acceleration (in frequency domain)
              
-**fBodyAccMag-meanFreq()**    
+**fBodyAccMag-meanFreq() [Hz]**    
     weighted average of the frequency components to obtain a mean frequency
     of the magnitude of body acceleration (in frequency domain)
 
-**fBodyBodyAccJerkMag-mean()**  
+**fBodyBodyAccJerkMag-mean() [g]**  
     mean value of the magnitude of the body linear acceleration (in frequency domain)
      
-**fBodyBodyAccJerkMag-meanFreq()**  
+**fBodyBodyAccJerkMag-meanFreq() [Hz]**  
     weighted average of the frequency components to obtain a mean frequency
     of the magnitude of the body linear acceleration (in frequency domain)
 
-**fBodyBodyGyroMag-mean()**  
+**fBodyBodyGyroMag-mean() [rad/s]**  
     mean value of the magnitude of the body angular velocity (in frequency domain)
         
-**fBodyBodyGyroMag-meanFreq()**  
+**fBodyBodyGyroMag-meanFreq() [Hz]**  
     weighted average of the frequency components to obtain a mean frequency
     of the magnitude of the body angular velocity (in frequency domain)
 
-**fBodyBodyGyroJerkMag-mean()**   
+**fBodyBodyGyroJerkMag-mean() [rad/s]**   
     mean value of the magnitude of the body angular velocity to obtain Jerk signals (in frequency domain)
    
-**fBodyBodyGyroJerkMag-meanFreq()**  
+**fBodyBodyGyroJerkMag-meanFreq() [Hz]**  
     weighted average of the frequency components to obtain a mean frequency
     of the magnitude of the body angular velocity to obtain Jerk signals (in frequency domain)
     
