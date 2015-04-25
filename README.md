@@ -3,6 +3,15 @@
 Project for "Getting and Cleaning Data" course
 
 ----------
+
+
+**Table of contents:**
+
+1. Files description
+2. Script description
+3. Tidy data
+
+----------
 ## Files desciption
 
 **run\_analisys.R** script has a function which tidy given data. Script works when data is stored in the working directory in the folder "*UCI HAR Dataset*". This folder should contains files as follows:
@@ -52,6 +61,18 @@ run_analisys.R is working as follows:
 8. Because names for `testData` and `trainData` are the same, I don't create names for `trainData`.
 9. Merges `testData` and `trainData` using `rbind()` function.
 10. It apears that some column names are reapted. Because of this, scrip makes unique column names using `make.unique()` function. Unique column names are necessary to use `select()` function in next step.
+11. Extracts the measurements on the mean and standard deviation for each measurement using `select()` function and assign it to `selectedData` variable.
+12. Changes numbers in "Activity" column to corresponded activities. To do this 6 `if\else` conditions are used in a loop `for`.
+13. Sorts data by "ID_sub" and "Activity" using `arrange()` function.
+14. Writes data to a file "*Mean\_and\_Std.txt*" using `write.table()` function without row names.
+15. Calulates the average of each variable for each activity and each subject using `ddply()` and `colwise()` functions and assign it to data frame `averageData`. Function `colwise()` allows to calculate the average in every column.
+16. Creates new column names for `averageData`. To do this, I add prefix "Ave_" to column names from `selectedData`.
+17. Writes data to a file "*Average.txt*" using `write.table()` function without row names.
+
+## Tidy data
+
+Tidy data sets are written to two files: "Mean\_and\_Std.txt" and "Average.txt". Each file is described in the "**CodeBook.md**". Code book contains descriptions of the variables with units.
+
 
 
 
