@@ -7,9 +7,9 @@ Project for "Getting and Cleaning Data" course
 
 **Table of contents:**
 
-1. Files description
-2. Script description
-3. Tidy data
+1. [Files description](https://github.com/ATypiak/GaCDproject#files-desciption "Files description")
+2. [Script description](https://github.com/ATypiak/GaCDproject#script-description "Script description")
+3. [Tidy data](https://github.com/ATypiak/GaCDproject#tidy-data "Tidy data")
 
 ----------
 ## Files desciption
